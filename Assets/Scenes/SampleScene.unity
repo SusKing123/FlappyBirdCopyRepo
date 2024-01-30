@@ -341,7 +341,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.27033642, g: 0.32659698, b: 0.4245283, a: 0}
+  m_BackGroundColor: {r: 0.24003203, g: 0.5849056, b: 0.41568124, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -961,6 +961,7 @@ MonoBehaviour:
   playerScore: 0
   scoreText: {fileID: 1319701142}
   gameOverScreen: {fileID: 608873590}
+  playIt: {fileID: 0}
 --- !u!4 &1982910964
 Transform:
   m_ObjectHideFlags: 0

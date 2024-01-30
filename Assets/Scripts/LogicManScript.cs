@@ -9,6 +9,7 @@ public class LogicManScript : MonoBehaviour
     public int playerScore;
     public Text scoreText;
     public GameObject gameOverScreen;
+    public GameObject playIt;
 
     [ContextMenu("Increase Score")]
     public void addScore()
@@ -25,5 +26,10 @@ public class LogicManScript : MonoBehaviour
     public void gameOver()
     {
         gameOverScreen.SetActive(true);
+    }
+
+    public void play()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }
